@@ -37,11 +37,4 @@ This repository contains an end-to-end AI agent for automated analysis of scient
 - **Model Benchmarking**: Supports multiple open-source LLMs (Llama 3.2, Gemma 3, Mistral, Qwen 2.5, DeepSeek-R1) with automated evaluation (ROUGE, BERTScore, latency). :contentReference[oaicite:12]{index=12}&#8203;:contentReference[oaicite:13]{index=13}  
 - **Web Interface**: Built with Streamlit—users can upload papers, preview extracted text, submit queries, and view citation-backed responses. :contentReference[oaicite:14]{index=14}&#8203;:contentReference[oaicite:15]{index=15}  
 
-## Architecture
 
-```text
-User Upload → Text Extraction → SHA-256 Hashing → Chunking & Tokenization
-       ↓                  ↓                  ↓
-    FAISS Index       JSON Storage      Embedding Generation
-       ↓                  ↓                  ↓
-   User Query → Semantic Retrieval (FAISS) → RAG Prompt Assembly → LLM → Streamlit UI
