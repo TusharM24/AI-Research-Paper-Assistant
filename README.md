@@ -8,7 +8,7 @@ This project includes the following primary files:
 1. **`practicum_project.ipynb`**  
    A Jupyter notebook containing the full data-analysis pipeline: data ingestion, preprocessing, EDA, prompt engineering, model benchmarking, statistical analysis, and all source code with outputs displayed inline.
 
-2. **`exit_exam_presentation.pptx`**  
+2. **`Final_Presentation_Group4.pptx`**  
    PowerPoint slides used for the university exit-exam presentation, covering project motivation, architecture, results, and live demo.
 
 3. **`Final_Report_Group4.pdf`**  
